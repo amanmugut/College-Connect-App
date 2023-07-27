@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin"
+    tools:context=".se_selection">
+
+    <ImageView
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/recbig"></ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1"
+                android:layout_marginTop="@dimen/_10sdp">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se2"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se3"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se4"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se5"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se6"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1">
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/se7"
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se7"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se8"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se9"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se10"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/se11"
+                android:layout_marginStart="@dimen/_65sdp"
+                android:layout_weight="1">
+
+            </ImageView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
